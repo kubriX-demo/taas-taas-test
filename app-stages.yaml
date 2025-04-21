@@ -1,6 +1,6 @@
-teamName: dbaas2
-appName: dbaas2-test
-repoUrl: https://github.com/kubriX-demo/dbaas2-dbaas2-test
+teamName: taas
+appName: taas-test
+repoUrl: https://github.com/kubriX-demo/taas-test
 createAppNamespace: true
 stages:
   - name: "test"
