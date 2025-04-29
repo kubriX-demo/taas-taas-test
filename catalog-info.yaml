@@ -16,6 +16,7 @@ metadata:
   annotations:
     github.com/project-slug: kubriX-demo/dbaas2-dbaas2-test
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=dbaas2-test-prod'
+    backstage.io/kubernetes-id: dbaas-dbaas-prod
     argocd/app-namespace: adn-dbaas2
     argocd/app-name: dbaas2-test-prod
     backstage.io/techdocs-ref: dir:.
@@ -56,6 +57,7 @@ metadata:
   annotations:
     github.com/project-slug: kubriX-demo/dbaas2-dbaas2-test
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=dbaas2-test-qa'
+    backstage.io/kubernetes-id: dbaas-dbaas-qa
     argocd/app-namespace: adn-dbaas2
     argocd/app-name: dbaas2-test-qa
     backstage.io/techdocs-ref: dir:.
@@ -96,6 +98,7 @@ metadata:
   annotations:
     github.com/project-slug: kubriX-demo/dbaas2-dbaas2-test
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=dbaas2-test-test'
+    backstage.io/kubernetes-id: dbaas-dbaas-test
     argocd/app-namespace: adn-dbaas2
     argocd/app-name: dbaas2-test-test
     backstage.io/techdocs-ref: dir:.
