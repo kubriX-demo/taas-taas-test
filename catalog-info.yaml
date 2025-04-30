@@ -16,7 +16,7 @@ metadata:
   annotations:
     github.com/project-slug: kubriX-demo/taas-test
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=taas-test-prod'
-    backstage.io/kubernetes-id: taas-test-prod
+    app.kubernetes.io/instance: taas-test-prod
     argocd/app-namespace: adn-taas
     argocd/app-name: taas-test-prod
     backstage.io/techdocs-ref: dir:.
@@ -57,7 +57,7 @@ metadata:
   annotations:
     github.com/project-slug: kubriX-demo/taas-test
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=taas-test-qa'
-    backstage.io/kubernetes-id: taas-test-qa
+    app.kubernetes.io/instance: taas-test-qa
     argocd/app-namespace: adn-taas
     argocd/app-name: taas-test-qa
     backstage.io/techdocs-ref: dir:.
@@ -98,7 +98,7 @@ metadata:
   annotations:
     github.com/project-slug: kubriX-demo/taas-test
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=taas-taas-test-test'
-    backstage.io/kubernetes-id: taas-test-test
+    app.kubernetes.io/instance: taas-test-test
     argocd/app-namespace: adn-taas
     argocd/app-name: taas-test-test
     backstage.io/techdocs-ref: dir:.
@@ -139,6 +139,7 @@ metadata:
   annotations:
     github.com/project-slug: kubriX-demo/taas-test
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=taas-taas-test'
+    app.kubernetes.io/instance: taas-test-test
     argocd/app-namespace: adn-taas
     argocd/app-name: taas-taas-test
     backstage.io/techdocs-ref: dir:.
